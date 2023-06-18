@@ -22,9 +22,11 @@
 };
 
 / {
-&mt {
-	flavor = "balanced";
-};
+behaviors {
+	&mt {
+		flavor = "balanced";
+	};
+}
 keymap {
 	compatible = "zmk,keymap";
 

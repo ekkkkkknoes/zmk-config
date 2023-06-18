@@ -17,16 +17,10 @@
 #define MT_SEMCTL &mt RCTRL SEMI
 
 &mt {
-  //  flavor = "tap-preferred";
-   // tapping_term_ms = <200>;
+	flavor = "balanced";
 };
 
 / {
-behaviors {
-	&mt {
-		flavor = "balanced";
-	};
-}
 keymap {
 	compatible = "zmk,keymap";
 

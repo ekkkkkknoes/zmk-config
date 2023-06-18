@@ -22,6 +22,9 @@
 };
 
 / {
+&mt {
+	flavor = "balanced";
+};
 keymap {
 	compatible = "zmk,keymap";
 
